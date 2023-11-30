@@ -1,4 +1,20 @@
+body {
+    background-color: darkgreen;
+}
+
 .title {
+    text-align: center;
+}
+
+#formal {
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+
+#buetons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10px;
 }

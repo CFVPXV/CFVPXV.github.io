@@ -13,11 +13,20 @@
 
     <div class="title">
         <h1>Yet Another Security Demo</h1>
-        <em>Powered by Supabase</em>
+        <em>Powered by <em style="color: lightgreen;">Supabase</em></em>
     </div>
     <hr>
-    <input id="em" type="email">
-    <input id="pass" type="password">
+    <div id="signInField">
+        <h3>Please Sign In or Create An Account</h3>
+        <div id="formal">
+            <input id="em" type="email" placeholder="email">
+            <input id="pass" type="password" placeholder="password">
+        </div>
+        <div id="buetons">
+            <button id="signInButton">Log In</button>
+            <button id="createAccountButton">Create Account</button>
+        </div>
+    </div>
 
 </body>
 
